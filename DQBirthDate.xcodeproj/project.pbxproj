@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CFED9511DDC58AB0096ADB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9501DDC58AB0096ADB3 /* main.m */; };
+		1CFED9541DDC58AB0096ADB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9531DDC58AB0096ADB3 /* AppDelegate.m */; };
+		1CFED9571DDC58AB0096ADB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9561DDC58AB0096ADB3 /* ViewController.m */; };
+		1CFED95A1DDC58AB0096ADB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFED9581DDC58AB0096ADB3 /* Main.storyboard */; };
+		1CFED95C1DDC58AB0096ADB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFED95B1DDC58AB0096ADB3 /* Assets.xcassets */; };
+		1CFED95F1DDC58AB0096ADB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFED95D1DDC58AB0096ADB3 /* LaunchScreen.storyboard */; };
+		1CFED96A1DDC58AB0096ADB3 /* DQBirthDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9691DDC58AB0096ADB3 /* DQBirthDateTests.m */; };
+		1CFED9751DDC58AB0096ADB3 /* DQBirthDateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9741DDC58AB0096ADB3 /* DQBirthDateUITests.m */; };
+		1CFED98C1DDC5C2F0096ADB3 /* CalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9851DDC5C2F0096ADB3 /* CalculateTool.m */; };
+		1CFED98D1DDC5C2F0096ADB3 /* DQBirthDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9871DDC5C2F0096ADB3 /* DQBirthDateView.m */; };
+		1CFED98E1DDC5C2F0096ADB3 /* DQCanCerEnsureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9891DDC5C2F0096ADB3 /* DQCanCerEnsureView.m */; };
+		1CFED98F1DDC5C2F0096ADB3 /* DQconstellationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED98B1DDC5C2F0096ADB3 /* DQconstellationView.m */; };
+		1CFED9931DDC5D9C0096ADB3 /* DQAgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFED9921DDC5D9C0096ADB3 /* DQAgeModel.m */; };
+		C35D34623F7768520BFFB9F6 /* Pods_DQBirthDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C53B307C608666A1740B916 /* Pods_DQBirthDate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CFED9661DDC58AB0096ADB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFED9441DDC58AB0096ADB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFED94B1DDC58AB0096ADB3;
+			remoteInfo = DQBirthDate;
+		};
+		1CFED9711DDC58AB0096ADB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFED9441DDC58AB0096ADB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFED94B1DDC58AB0096ADB3;
+			remoteInfo = DQBirthDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CFED94C1DDC58AB0096ADB3 /* DQBirthDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQBirthDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFED9501DDC58AB0096ADB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CFED9521DDC58AB0096ADB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CFED9531DDC58AB0096ADB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CFED9551DDC58AB0096ADB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CFED9561DDC58AB0096ADB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CFED9591DDC58AB0096ADB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CFED95B1DDC58AB0096ADB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CFED95E1DDC58AB0096ADB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CFED9601DDC58AB0096ADB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFED9651DDC58AB0096ADB3 /* DQBirthDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQBirthDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFED9691DDC58AB0096ADB3 /* DQBirthDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQBirthDateTests.m; sourceTree = "<group>"; };
+		1CFED96B1DDC58AB0096ADB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFED9701DDC58AB0096ADB3 /* DQBirthDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQBirthDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFED9741DDC58AB0096ADB3 /* DQBirthDateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQBirthDateUITests.m; sourceTree = "<group>"; };
+		1CFED9761DDC58AB0096ADB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFED9821DDC5A0F0096ADB3 /* DQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQPrefixHeader.pch; sourceTree = "<group>"; };
+		1CFED9841DDC5C2F0096ADB3 /* CalculateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateTool.h; sourceTree = "<group>"; };
+		1CFED9851DDC5C2F0096ADB3 /* CalculateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateTool.m; sourceTree = "<group>"; };
+		1CFED9861DDC5C2F0096ADB3 /* DQBirthDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBirthDateView.h; sourceTree = "<group>"; };
+		1CFED9871DDC5C2F0096ADB3 /* DQBirthDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBirthDateView.m; sourceTree = "<group>"; };
+		1CFED9881DDC5C2F0096ADB3 /* DQCanCerEnsureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQCanCerEnsureView.h; sourceTree = "<group>"; };
+		1CFED9891DDC5C2F0096ADB3 /* DQCanCerEnsureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQCanCerEnsureView.m; sourceTree = "<group>"; };
+		1CFED98A1DDC5C2F0096ADB3 /* DQconstellationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQconstellationView.h; sourceTree = "<group>"; };
+		1CFED98B1DDC5C2F0096ADB3 /* DQconstellationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQconstellationView.m; sourceTree = "<group>"; };
+		1CFED9901DDC5C410096ADB3 /* DQHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQHeader.h; sourceTree = "<group>"; };
+		1CFED9911DDC5D9C0096ADB3 /* DQAgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQAgeModel.h; sourceTree = "<group>"; };
+		1CFED9921DDC5D9C0096ADB3 /* DQAgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQAgeModel.m; sourceTree = "<group>"; };
+		729BAD70E2210894F08065D1 /* Pods-DQBirthDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQBirthDate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQBirthDate/Pods-DQBirthDate.debug.xcconfig"; sourceTree = "<group>"; };
+		9C53B307C608666A1740B916 /* Pods_DQBirthDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQBirthDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E190B5CC8A868A75BD8155B4 /* Pods-DQBirthDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQBirthDate.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQBirthDate/Pods-DQBirthDate.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFED9491DDC58AB0096ADB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D34623F7768520BFFB9F6 /* Pods_DQBirthDate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED9621DDC58AB0096ADB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED96D1DDC58AB0096ADB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A56DD2E9A50474836945CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C53B307C608666A1740B916 /* Pods_DQBirthDate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CFED9431DDC58AB0096ADB3 = {
+			isa = PBXGroup;
+			children = (
+				1CFED94E1DDC58AB0096ADB3 /* DQBirthDate */,
+				1CFED9681DDC58AB0096ADB3 /* DQBirthDateTests */,
+				1CFED9731DDC58AB0096ADB3 /* DQBirthDateUITests */,
+				1CFED94D1DDC58AB0096ADB3 /* Products */,
+				CEA11C5204D5544657E4A9D7 /* Pods */,
+				1A56DD2E9A50474836945CEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CFED94D1DDC58AB0096ADB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED94C1DDC58AB0096ADB3 /* DQBirthDate.app */,
+				1CFED9651DDC58AB0096ADB3 /* DQBirthDateTests.xctest */,
+				1CFED9701DDC58AB0096ADB3 /* DQBirthDateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CFED94E1DDC58AB0096ADB3 /* DQBirthDate */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED9831DDC5C2F0096ADB3 /* DQBirthTool */,
+				1CFED9521DDC58AB0096ADB3 /* AppDelegate.h */,
+				1CFED9531DDC58AB0096ADB3 /* AppDelegate.m */,
+				1CFED9551DDC58AB0096ADB3 /* ViewController.h */,
+				1CFED9561DDC58AB0096ADB3 /* ViewController.m */,
+				1CFED9581DDC58AB0096ADB3 /* Main.storyboard */,
+				1CFED95B1DDC58AB0096ADB3 /* Assets.xcassets */,
+				1CFED95D1DDC58AB0096ADB3 /* LaunchScreen.storyboard */,
+				1CFED9601DDC58AB0096ADB3 /* Info.plist */,
+				1CFED9821DDC5A0F0096ADB3 /* DQPrefixHeader.pch */,
+				1CFED94F1DDC58AB0096ADB3 /* Supporting Files */,
+			);
+			path = DQBirthDate;
+			sourceTree = "<group>";
+		};
+		1CFED94F1DDC58AB0096ADB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED9501DDC58AB0096ADB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CFED9681DDC58AB0096ADB3 /* DQBirthDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED9691DDC58AB0096ADB3 /* DQBirthDateTests.m */,
+				1CFED96B1DDC58AB0096ADB3 /* Info.plist */,
+			);
+			path = DQBirthDateTests;
+			sourceTree = "<group>";
+		};
+		1CFED9731DDC58AB0096ADB3 /* DQBirthDateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED9741DDC58AB0096ADB3 /* DQBirthDateUITests.m */,
+				1CFED9761DDC58AB0096ADB3 /* Info.plist */,
+			);
+			path = DQBirthDateUITests;
+			sourceTree = "<group>";
+		};
+		1CFED9831DDC5C2F0096ADB3 /* DQBirthTool */ = {
+			isa = PBXGroup;
+			children = (
+				1CFED9901DDC5C410096ADB3 /* DQHeader.h */,
+				1CFED9841DDC5C2F0096ADB3 /* CalculateTool.h */,
+				1CFED9851DDC5C2F0096ADB3 /* CalculateTool.m */,
+				1CFED9911DDC5D9C0096ADB3 /* DQAgeModel.h */,
+				1CFED9921DDC5D9C0096ADB3 /* DQAgeModel.m */,
+				1CFED9861DDC5C2F0096ADB3 /* DQBirthDateView.h */,
+				1CFED9871DDC5C2F0096ADB3 /* DQBirthDateView.m */,
+				1CFED9881DDC5C2F0096ADB3 /* DQCanCerEnsureView.h */,
+				1CFED9891DDC5C2F0096ADB3 /* DQCanCerEnsureView.m */,
+				1CFED98A1DDC5C2F0096ADB3 /* DQconstellationView.h */,
+				1CFED98B1DDC5C2F0096ADB3 /* DQconstellationView.m */,
+			);
+			path = DQBirthTool;
+			sourceTree = "<group>";
+		};
+		CEA11C5204D5544657E4A9D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				729BAD70E2210894F08065D1 /* Pods-DQBirthDate.debug.xcconfig */,
+				E190B5CC8A868A75BD8155B4 /* Pods-DQBirthDate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CFED94B1DDC58AB0096ADB3 /* DQBirthDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFED9791DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDate" */;
+			buildPhases = (
+				6E723C99B1FA2647DB2A0586 /* [CP] Check Pods Manifest.lock */,
+				1CFED9481DDC58AB0096ADB3 /* Sources */,
+				1CFED9491DDC58AB0096ADB3 /* Frameworks */,
+				1CFED94A1DDC58AB0096ADB3 /* Resources */,
+				C4264E283218FAA2DCD03BF1 /* [CP] Embed Pods Frameworks */,
+				E0A17829AA6239D270D27DD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQBirthDate;
+			productName = DQBirthDate;
+			productReference = 1CFED94C1DDC58AB0096ADB3 /* DQBirthDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CFED9641DDC58AB0096ADB3 /* DQBirthDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFED97C1DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDateTests" */;
+			buildPhases = (
+				1CFED9611DDC58AB0096ADB3 /* Sources */,
+				1CFED9621DDC58AB0096ADB3 /* Frameworks */,
+				1CFED9631DDC58AB0096ADB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFED9671DDC58AB0096ADB3 /* PBXTargetDependency */,
+			);
+			name = DQBirthDateTests;
+			productName = DQBirthDateTests;
+			productReference = 1CFED9651DDC58AB0096ADB3 /* DQBirthDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CFED96F1DDC58AB0096ADB3 /* DQBirthDateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFED97F1DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDateUITests" */;
+			buildPhases = (
+				1CFED96C1DDC58AB0096ADB3 /* Sources */,
+				1CFED96D1DDC58AB0096ADB3 /* Frameworks */,
+				1CFED96E1DDC58AB0096ADB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFED9721DDC58AB0096ADB3 /* PBXTargetDependency */,
+			);
+			name = DQBirthDateUITests;
+			productName = DQBirthDateUITests;
+			productReference = 1CFED9701DDC58AB0096ADB3 /* DQBirthDateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CFED9441DDC58AB0096ADB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GuanzhouDQ;
+				TargetAttributes = {
+					1CFED94B1DDC58AB0096ADB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1CFED9641DDC58AB0096ADB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CFED94B1DDC58AB0096ADB3;
+					};
+					1CFED96F1DDC58AB0096ADB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CFED94B1DDC58AB0096ADB3;
+					};
+				};
+			};
+			buildConfigurationList = 1CFED9471DDC58AB0096ADB3 /* Build configuration list for PBXProject "DQBirthDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CFED9431DDC58AB0096ADB3;
+			productRefGroup = 1CFED94D1DDC58AB0096ADB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CFED94B1DDC58AB0096ADB3 /* DQBirthDate */,
+				1CFED9641DDC58AB0096ADB3 /* DQBirthDateTests */,
+				1CFED96F1DDC58AB0096ADB3 /* DQBirthDateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFED94A1DDC58AB0096ADB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFED95F1DDC58AB0096ADB3 /* LaunchScreen.storyboard in Resources */,
+				1CFED95C1DDC58AB0096ADB3 /* Assets.xcassets in Resources */,
+				1CFED95A1DDC58AB0096ADB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED9631DDC58AB0096ADB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED96E1DDC58AB0096ADB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E723C99B1FA2647DB2A0586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4264E283218FAA2DCD03BF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQBirthDate/Pods-DQBirthDate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A17829AA6239D270D27DD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQBirthDate/Pods-DQBirthDate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFED9481DDC58AB0096ADB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFED9571DDC58AB0096ADB3 /* ViewController.m in Sources */,
+				1CFED98E1DDC5C2F0096ADB3 /* DQCanCerEnsureView.m in Sources */,
+				1CFED9931DDC5D9C0096ADB3 /* DQAgeModel.m in Sources */,
+				1CFED9541DDC58AB0096ADB3 /* AppDelegate.m in Sources */,
+				1CFED98F1DDC5C2F0096ADB3 /* DQconstellationView.m in Sources */,
+				1CFED98C1DDC5C2F0096ADB3 /* CalculateTool.m in Sources */,
+				1CFED98D1DDC5C2F0096ADB3 /* DQBirthDateView.m in Sources */,
+				1CFED9511DDC58AB0096ADB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED9611DDC58AB0096ADB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFED96A1DDC58AB0096ADB3 /* DQBirthDateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFED96C1DDC58AB0096ADB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFED9751DDC58AB0096ADB3 /* DQBirthDateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFED9671DDC58AB0096ADB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFED94B1DDC58AB0096ADB3 /* DQBirthDate */;
+			targetProxy = 1CFED9661DDC58AB0096ADB3 /* PBXContainerItemProxy */;
+		};
+		1CFED9721DDC58AB0096ADB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFED94B1DDC58AB0096ADB3 /* DQBirthDate */;
+			targetProxy = 1CFED9711DDC58AB0096ADB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CFED9581DDC58AB0096ADB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFED9591DDC58AB0096ADB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CFED95D1DDC58AB0096ADB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFED95E1DDC58AB0096ADB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CFED9771DDC58AB0096ADB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CFED9781DDC58AB0096ADB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CFED97A1DDC58AB0096ADB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729BAD70E2210894F08065D1 /* Pods-DQBirthDate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DQBirthDate/DQPrefixHeader.pch";
+				INFOPLIST_FILE = DQBirthDate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		1CFED97B1DDC58AB0096ADB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E190B5CC8A868A75BD8155B4 /* Pods-DQBirthDate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DQBirthDate/DQPrefixHeader.pch";
+				INFOPLIST_FILE = DQBirthDate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		1CFED97D1DDC58AB0096ADB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DQBirthDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQBirthDate.app/DQBirthDate";
+			};
+			name = Debug;
+		};
+		1CFED97E1DDC58AB0096ADB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DQBirthDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQBirthDate.app/DQBirthDate";
+			};
+			name = Release;
+		};
+		1CFED9801DDC58AB0096ADB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DQBirthDateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DQBirthDate;
+			};
+			name = Debug;
+		};
+		1CFED9811DDC58AB0096ADB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DQBirthDateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test-btn.DQBirthDateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DQBirthDate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CFED9471DDC58AB0096ADB3 /* Build configuration list for PBXProject "DQBirthDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFED9771DDC58AB0096ADB3 /* Debug */,
+				1CFED9781DDC58AB0096ADB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFED9791DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFED97A1DDC58AB0096ADB3 /* Debug */,
+				1CFED97B1DDC58AB0096ADB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFED97C1DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFED97D1DDC58AB0096ADB3 /* Debug */,
+				1CFED97E1DDC58AB0096ADB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFED97F1DDC58AB0096ADB3 /* Build configuration list for PBXNativeTarget "DQBirthDateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFED9801DDC58AB0096ADB3 /* Debug */,
+				1CFED9811DDC58AB0096ADB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CFED9441DDC58AB0096ADB3 /* Project object */;
+}
